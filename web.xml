@@ -1,0 +1,26 @@
+<web-app>
+    <servlet>
+        <servlet-name>BS</servlet-name>
+        <servlet-class>BrightServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BS</servlet-name>
+        <url-pattern>/bright</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AS</servlet-name>
+        <servlet-class>AverageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AS</servlet-name>
+        <url-pattern>/avg</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>WS</servlet-name>
+        <servlet-class>WeakServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WS</servlet-name>
+        <url-pattern>/weak</url-pattern>
+    </servlet-mapping>
+</web-app>
